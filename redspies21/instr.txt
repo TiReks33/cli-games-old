@@ -1,0 +1,28 @@
+*********************Game rules***********************************
+Red and Blue team moves one by one (reds first).
+
+Both teams have 6 standard units ("soldiers") and 2 spy units:
+reds - 6xR && S1/S2 ('S' means "Stirlitz");
+blues - 6xB && E1/E2 ('E' means "Emissarius").
+
+Step width for soldier unit is 1, while spies have basic (1 step) and
+super (2 steps) moves. Spy units have limit for "Super" jump.
+
+Soldier can attack unit only in his line "face to face" (like pawn,or
+"peshka", in chess), while Spy unit cannot attack in front, but can 
+"sneaky attack"("in spine" (behind in same line), or in diagonal 
+(up-right,up-left,down-left,down-right). For both units must exists 
+empty space segment backward enemy unit (like in checkers).
+
+The 2 goals of each team for victory is:
+
+1) 4 figure must get to the last field cell (7 row for Reds and 0 for
+Blues);
+
+2) or eliminate half of enemy team units ("surrender"). 
+
+ru:Задача команды 1) дойти тремя фигурами до ключевой точки 
+(последнее поле), либо 2) ликвидировать 5 вражеских фигур 
+("сдача в плен");
+
+********************Game rules*************************************
