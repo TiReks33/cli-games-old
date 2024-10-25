@@ -1,0 +1,12 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                              %
+% Your goal is to destroy      %
+% balls on board by select its %
+% coordinates in format [i,j]; %
+% victory achieved by growing  %
+% certain number of points.    %
+% Game for points(already) or  %
+% for record in score table    %
+% (may be, later).             %
+%                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
