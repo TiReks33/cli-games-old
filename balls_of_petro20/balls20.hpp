@@ -1,6 +1,8 @@
 #ifndef balls20_h
 #define balls20_h
 
+#include <cstddef>
+
 char * create_array2d(size_t a, size_t b);
 
 struct CharArray2D
