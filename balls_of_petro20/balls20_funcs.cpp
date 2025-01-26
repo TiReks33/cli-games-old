@@ -42,7 +42,7 @@ void show_rules(void){ //rules of game .txt
 
     std::string line;
 
-       std::ifstream in("descr.txt"); // окрываем файл для чтения
+       std::ifstream in("/usr/share/balls-of-petro/descr.txt"); // окрываем файл для чтения
        if (in.is_open())
        {
            while (std::getline(in, line))
@@ -363,7 +363,7 @@ void victory()
 {
 	std::string line;
 
-	       std::ifstream in("victory.txt"); // окрываем файл для чтения
+	       std::ifstream in("/usr/share/balls-of-petro/victory.txt"); // окрываем файл для чтения
 	       if (in.is_open())
 	       {
 	           while (std::getline(in, line))

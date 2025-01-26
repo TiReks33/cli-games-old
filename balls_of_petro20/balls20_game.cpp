@@ -32,7 +32,7 @@ bool bye=0;
 
         std::string line;
 
-           std::ifstream in("logo"); // open file for read
+           std::ifstream in("/usr/share/balls-of-petro/logo"); // open file for read
            if (in.is_open())
            {
                while (std::getline(in, line))
@@ -177,7 +177,7 @@ std::cout << "Destroy this balls!!\n";
 do{
 	printf("\tYour current points: %d\n\tlimit is:%d\n\n",sc->game_score,sc->score_limit);
 	play_show(p_ball2d);
-std::cout << " [d]estroy balls | [u]pdate | [r]eset | [e]xit\n";
+std::cout << " [d]estroy balls | [u]pdate | [r]eshuffle | [e]xit\n";
 
 std::cin >> ins;
 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //clear buffer before taking new line
